@@ -31,7 +31,7 @@ mathematical_word_list = {
     "内分": "直線上の2点A、Bを結ぶ線分ABを考える。この線分ABを内分する点Pとは、点A、B、Pが同一直線上で点Pが線分ABの内側にあり、かつAP:PBの比が一定である点のことをいう。",
     "外分": "直線上の2点A、Bを結ぶ線分ABを考える。この線分ABを外分する点Pとは、点A、B、Pが同一直線上で点Pが線分ABの外側にあり、かつAP:PBの比が一定である点のことをいう。",
 }
-CATEGORY_LIST = ["word", "phrase", "problems"]
+CATEGORY_LIST = ["word", "short", "problem"]
 REPLACE_WORD_LIST = [{
     "_parallel_": "//",
 }]
@@ -89,6 +89,6 @@ if __name__ == "__main__":
             ]
         }
         json_strs.append(json.dumps(data, ensure_ascii=False))
-    with open(os.path.join(BASE_DIR, "jsonl_testcase.jsonl"), "w", encoding="utf-8") as f:
+    with open(os.path.join(BASE_DIR, "testcase.jsonl"), "w", encoding="utf-8") as f:
         for json_str in json_strs:
             f.write(json_str + "\n")
