@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<figures>
+    <point id="1" name="A" position="2.0,7.3" />
+    <point id="2" name="B" position="-6.9,-3.6" />
+    <point id="3" name="C" position="5.1,-3.6" />
+    <point id="4" name="D" position="-3.1,1.1" />
+    <point id="5" name="E" position="1.1,-3.6" />
+    <line-segment id="6" point-id1="1" point-id2="2" name="AB" />
+    <line-segment id="7" point-id1="3" point-id2="2" name="CB" />
+    <line-segment id="8" point-id1="1" point-id2="3" name="AC" />
+    <line-segment id="9" point-id1="1" point-id2="4" length="8.0" name="AD" />
+    <line-segment id="10" point-id1="4" point-id2="2" length="6.0" name="DB" />
+    <line-segment id="11" point-id1="2" point-id2="5" length="8.0" name="BE" />
+    <line-segment id="12" point-id1="5" point-id2="3" length="4.0" name="EC" />
+    <point-on-line point-id="4" line-id="6" />
+    <point-on-line point-id="5" line-id="7" />
+</figures>

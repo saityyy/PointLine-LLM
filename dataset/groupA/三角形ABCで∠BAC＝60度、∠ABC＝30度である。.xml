@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<figures>
+    <point id="1" name="A" position="5.2,4.8" />
+    <point id="2" name="B" position="-8.2,-3.0" />
+    <point id="3" name="C" position="5.2,-3.0" />
+    <line-segment id="4" point-id1="1" point-id2="2" name="AB" />
+    <line-segment id="5" point-id1="3" point-id2="2" name="CB" />
+    <line-segment id="6" point-id1="1" point-id2="3" name="AC" />
+    <angle id="7" point-id1="2" point-id2="1" point-id3="3" name="∠BAC" value="60" />
+    <angle id="8" point-id1="1" point-id2="2" point-id3="3" name="∠ABC" value="30" />
+</figures>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<figures>
+    <point id="1" name="A" position="-5.1,4.5" />
+    <point id="2" name="B" position="4.4,-5.4" />
+    <point id="3" name="C" position="6.2,6.1" />
+    <point id="4" name="D" position="-6.4,-5.9" />
+    <straight-line name="l" id="5" point-id1="1" point-id2="2" />
+    <straight-line name="m" id="6" point-id1="3" point-id2="4" />
+    <vertical line-id1="5" line-id2="6" />
+</figures>

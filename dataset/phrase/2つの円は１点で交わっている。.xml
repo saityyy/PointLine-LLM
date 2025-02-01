@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<figures>
+    <point id="1" name="A" position="-5.2,0.5" />
+    <point id="2" name="B" position="3.3,-1.0" />
+    <circle id="3" center-point-id="1" name="C1" radius="3.3" />
+    <circle id="4" center-point-id="2" name="C2" radius="5.2" />
+    <circle-tangent-circle circle-id1="3" circle-id2="4" />
+</figures>

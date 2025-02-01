@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<figures>
+    <point id="1" name="A" position="-5.5,5.8" />
+    <point id="2" name="B" position="-3.4,-3.9" />
+    <point id="3" name="C" position="7.0,-3.9" />
+    <point id="4" name="D" position="1.9,-3.9" />
+    <line-segment id="5" point-id1="1" point-id2="2" name="AB" />
+    <line-segment id="6" point-id1="3" point-id2="2" name="CB" />
+    <line-segment id="7" point-id1="1" point-id2="3" name="AC" />
+    <line-segment id="8" point-id1="4" point-id2="1" name="DA" />
+    <angle id="9" point-id1="4" point-id2="1" point-id3="3" name="∠DAC" value="15" />
+    <angle id="10" point-id1="1" point-id2="2" point-id3="4" name="∠ABD" value="102" />
+    <angle id="11" point-id1="1" point-id2="3" point-id3="4" name="∠ACD" value="38" />
+    <point-on-line point-id="4" line-id="6" />
+</figures>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<figures>
+    <point id="1" name="A" position="-2.6,4.4" />
+    <point id="2" name="B" position="-6.5,-3.7" />
+    <point id="3" name="C" position="6.8,-3.7" />
+    <point id="4" name="D" position="-4.5,0.5" />
+    <line-segment id="5" point-id1="1" point-id2="2" name="AB" />
+    <line-segment id="6" point-id1="3" point-id2="2" name="CB" />
+    <line-segment id="7" point-id1="1" point-id2="3" name="AC" />
+    <line-segment id="8" point-id1="3" point-id2="4" name="CD" />
+    <angle id="9" point-id1="2" point-id2="4" point-id3="3" name="∠BDC" value="96" />
+    <angle id="10" point-id1="1" point-id2="3" point-id3="4" name="∠ACD" />
+    <angle id="11" point-id1="2" point-id2="3" point-id3="4" name="∠BCD" />
+    <point-on-line point-id="4" line-id="5" />
+    <bisector angle-id1="10" angle-id2="11" />
+</figures>
